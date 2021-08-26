@@ -364,6 +364,84 @@ header ul li a.x:hover{
     padding-top: 15px;
     font-size: 1.4em;
 }
+.nush h1{
+    position: absolute;
+    top: 600%;
+    left: 470px;
+    color: #b4b4b4;
+}
+.nush p{
+    position: absolute;
+    top: 610%;
+    left: 470px;
+    color: #6200ff;
+}
+.bck{
+    min-height: 100vh;
+    width: 40%;
+    background-image: url(Myhnea_NaVi.png);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    left: -100px;
+}
+.work h1{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+    animation: h1-load2 4s;
+}
+@keyframes h1-load2{
+    0%{
+        transform: translateX(-300%);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+.work span{
+    position: absolute;
+    top: 57%;
+    left: 35%;
+    color: #6200ff;
+    font-size: 1em;
+}
+.work p{
+    position: absolute;
+    top: 63%;
+    left: 35%;
+    color: #dbdbdb;
+    font-size: 1em;
+}
+.work2 h1{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+    animation: h1-load 4s;
+}
+.work2 span{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    color: #6200ff;
+    font-size: 1em;
+    animation: -purple-load 4s;
+}
+.work2 p{
+    position: absolute;
+    top: 54%;
+    left: 35%;
+    color: #dbdbdb;
+    font-size: 1em;
+    animation: -purple-load 4s;
+}
 @media(max-width: 700px){
     header{
         top: 0;
@@ -509,100 +587,25 @@ header ul li a.x:hover{
     }
     .work2 h1{
         position: absolute;
-        top: 40%;
-        left: -15%;
+        top: 50%;
+        left: 20%;
         color: #fff;
         font-size: 3em;
         font-weight: bold;
     }
     .work2 span{
         position: absolute;
-        top: 57%;
-        left: 35%;
+        top: 63%;
+        left: 20%;
         color: #6200ff;
         font-size: 1em;
     }
     .work2 p{
         position: absolute;
-        top: 63%;
-        left: 35%;
+        top: 67%;
+        left: 20%;
         color: #dbdbdb;
         font-size: 1em;
     }
-}
-.nush h1{
-    position: absolute;
-    top: 600%;
-    left: 470px;
-    color: #b4b4b4;
-}
-.nush p{
-    position: absolute;
-    top: 610%;
-    left: 470px;
-    color: #6200ff;
-}
-.bck{
-    min-height: 100vh;
-    width: 40%;
-    background-image: url(Myhnea_NaVi.png);
-    background-position: center;
-    background-size: cover;
-    position: fixed;
-    left: -100px;
-}
-.work h1{
-    position: absolute;
-    top: 40%;
-    left: 35%;
-    color: #fff;
-    font-size: 3em;
-    font-weight: bold;
-    animation: h1-load2 4s;
-}
-@keyframes h1-load2{
-    0%{
-        transform: translateX(-300%);
-    }
-
-    100%{
-        transform: translateY(0);
-    }
-}
-.work span{
-    position: absolute;
-    top: 57%;
-    left: 35%;
-    color: #6200ff;
-    font-size: 1em;
-}
-.work p{
-    position: absolute;
-    top: 63%;
-    left: 35%;
-    color: #dbdbdb;
-    font-size: 1em;
-}
-.work2 h1{
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    color: #fff;
-    font-size: 3em;
-    font-weight: bold;
-}
-.work2 span{
-    position: absolute;
-    top: 60%;
-    left: 20%;
-    color: #6200ff;
-    font-size: 1em;
-}
-.work2 p{
-    position: absolute;
-    top: 65%;
-    left: 20%;
-    color: #dbdbdb;
-    font-size: 1em;
 }
 
