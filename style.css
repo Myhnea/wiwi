@@ -615,5 +615,8 @@ header ul li a.x:hover{
         color: #dbdbdb;
         font-size: 1em;
     }
+    #loader{
+        background-size: 12%;
+    }
 }
 
