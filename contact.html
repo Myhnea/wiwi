@@ -41,6 +41,9 @@
     </head>
 
 <body>
+    
+    <div id="loader"></div>
+    
     <header>
         <a class="logo">.contact()</a>
         <ul>
@@ -99,7 +102,15 @@
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+<script>
 
+        var loader = document.getElementById('loader');
+        
+        window.addEventListener('load', function(){
+            loader.style.display = 'none';
+        })
+
+    </script>
 
 
 </body>
