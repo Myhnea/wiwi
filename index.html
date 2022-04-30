@@ -41,6 +41,8 @@
 </head>
 
 <body>
+    
+    <div id="loader"></div>
     <header>
         <a class="logo">.me()</a>
         <ul>
@@ -207,7 +209,15 @@
 
 
 
+    <script>
 
+        var loader = document.getElementById('loader');
+        
+        window.addEventListener('load', function(){
+            loader.style.display = 'none';
+        })
+
+    </script>
 
 
 
