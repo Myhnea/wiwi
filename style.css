@@ -573,7 +573,7 @@ header ul li a.x:hover{
     }
     .spine{
         position: fixed;
-        top: 355px;
+        top: 495px;
         bottom: 0;
         left: calc(25vw - 2rem);
         width: 1px;
@@ -629,6 +629,9 @@ header ul li a.x:hover{
         color: #dbdbdb;
         font-size: 1em;
     }
+    .zizi .circle{
+        left: -14.6px;
+    }
     .zizi .circle2{
         left: -14.34px;
         top: -10px;
@@ -636,6 +639,7 @@ header ul li a.x:hover{
     .spine2{
         left: 16.9%; 
         top: 56.3%;
+        bottom: 0;
     }
     #loader{
         background-size: 15%;
