@@ -447,6 +447,11 @@ header ul li a.x:hover{
     font-size: 1em;
     animation: -purple-load 4s;
 }
+.workk2 span{
+    color: #6200ff;
+    position: relative;
+    left: 0px;
+}
 .work2 p{
     position: absolute;
     top: 54%;
